@@ -1,14 +1,15 @@
 import React from 'react'
 import "./App.css";
 import { Routes,Route,Link , BrowserRouter } from "react-router-dom";
-
+import { globalsStyles } from './constant';
 import { Homepage } from "./Homepage";
 import { Apple } from "./Apple";
 import { Notfound } from "./Notfound";
 
 const App = () => (
   <BrowserRouter>
-    <div>
+    <div style={{
+     ... globalsStyles.navbar}}>
     <Link
      to="/"
      style={{
