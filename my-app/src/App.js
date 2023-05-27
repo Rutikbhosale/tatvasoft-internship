@@ -1,4 +1,3 @@
-import React from 'react'
 import "./App.css";
 import { Routes,Route,Link , BrowserRouter } from "react-router-dom";
 import { Homepage } from "./Homepage";
